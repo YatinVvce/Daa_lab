@@ -2,7 +2,9 @@ import java.io.*;
 import java.util.Scanner;
 public class Directed
 {
+
     static int V,i,j,k,graph[][];
+   
    void multiply(int A[][], int B[][],int C[][])
    {
        for (int i = 0; i < V; i++)
@@ -65,6 +67,7 @@ public class Directed
     		   graph[i][j]=sc.nextInt();
     	   }
        }
+  
        System.out.println("Total number of Triangle in Graph : "+
        obj.triangleInGraph(graph));
    }
